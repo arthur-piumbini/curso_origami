@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start":"node"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/turuzada/curso_origami/issues"
   },
-  "homepage": "https://github.com/turuzada/curso_origami#readme"
+  "homepage": "https://github.com/turuzada/curso_origami#readme",
+  "editor.formatOnSave": true
 }
