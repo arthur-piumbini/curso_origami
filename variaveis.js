@@ -18,4 +18,3 @@ console.log(vasco) //undefined
 console.log(teste)
 var teste = "oioioi" // undefined
 console.log(teste) // "oioioi"
-
