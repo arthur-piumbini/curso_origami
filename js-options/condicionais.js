@@ -95,3 +95,36 @@ console.log(x == "10")
 console.log(x === 10)
 console.log(x === "10")
 console.log(x !== 10)
+
+//======================================================================
+
+var art = false
+var hur = true
+console.log(art && hur)
+console.log(hur && hur) // retorna o primeiro falso
+console.log(art && art)
+
+console.log((5>4)&&(4>5))
+console.log((5>4)&&(6>5))
+
+console.log(art || hur)
+console.log(art || art) // retorna o primeiro true
+console.log(hur || hur)
+
+console.log((5-2)&&(5-" ")&&(5-2)) // retorna o ultimo true
+// " " conta como zero
+
+//======================================================================
+ 
+var corFavorita = "azul"
+
+switch(corFavorita){
+  case "azul" : 
+    console.log("azul é bonito")    
+    break
+  case "amarelo" :
+    console.log("amarelo é bonito")
+    break
+  case "verde" :
+    console.log("verde é bonito")  
+}
