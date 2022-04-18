@@ -39,6 +39,7 @@ function corFav(cor) {
     }else{
         console.log("vc n gosta de nada")
     }
+
 }
 console.log(corFav("verde"))
 
@@ -64,5 +65,17 @@ function faltaVisitar(paisesVisitados){
         console.log("Você já visitou todos os "+totalPaises +" países")
     }else{
         console.log("Você já visitou mais países do que os que existem nesse planeta, tem algo errado kkkk")
+    }
+}
+
+function menorIdade(idade){
+    if(typeof idade === "string" || typeof idade === "boolean"){
+        console.log("fale a sua idade em números")
+    }else{
+        if(idade <= 17){
+            return true
+        }else{
+            return false
+        }
     }
 }
